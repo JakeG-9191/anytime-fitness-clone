@@ -18,7 +18,7 @@ header {
   padding: 1rem;
   border-style: hidden;
   font-size: 24px;
-  top: 3%;
+  top: 2%;
 }
 
 .top-selection {
@@ -34,12 +34,27 @@ header {
   height: 60px;
   position: absolute;
   left: 1%;
-  top: 3%;
+  top: 2%;
+}
+
+#hero-anytime-fitness {
+  object-fit: cover;
+  opacity: 0.4;
+  width: 100vw;
+  height: 80vh;
 }
 
 .hero-background {
-  background-image: url('./images/gym-hero.jpg');
-  height: 90vh;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #3c304b;
+  overflow: hidden;
+  align-content: center;
+}
+
+#exact-gym-info {
+  position: absolute;
+  color: purple;
+  top: 25%;
+  align-content: center;
+  left: 30%;
+  background-color: white;
 }
